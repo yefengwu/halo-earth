@@ -7,6 +7,7 @@ import colorSchemeSwitcher from "./alpine-data/color-scheme-switcher";
 import upvote from "./alpine-data/upvote";
 import share from "./alpine-data/share";
 import logout from "./alpine-data/logout";
+import "./templates/assets/dist/cardlink"
 
 window.Alpine = Alpine;
 
@@ -48,7 +49,8 @@ export function generateToc() {
       "group flex items-center justify-between rounded py-1 px-1.5 transition-all hover:bg-gray-100 text-sm opacity-80 dark:hover:bg-slate-700 dark:text-slate-50",
     collapseDepth: 6,
     headingsOffset: 100,
-    scrollSmooth: true,
+    // scrollSmooth: true,
+    scrollSmooth: false,
     scrollSmoothOffset: -100,
     // @ts-ignore
     tocScrollOffset: 50,
