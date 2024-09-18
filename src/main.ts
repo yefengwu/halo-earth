@@ -7,7 +7,6 @@ import colorSchemeSwitcher from "./alpine-data/color-scheme-switcher";
 import upvote from "./alpine-data/upvote";
 import share from "./alpine-data/share";
 import logout from "./alpine-data/logout";
-import "./templates/assets/dist/cardlink"
 
 window.Alpine = Alpine;
 
